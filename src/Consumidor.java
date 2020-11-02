@@ -6,7 +6,7 @@ public class Consumidor extends Thread{
     }
 
     @Override
-    public synchronized void run() {
+    public void run() {
         System.out.println("...Consumidor empieza a consumir...");
         for (int i = 0; i < 20; i++) {
 

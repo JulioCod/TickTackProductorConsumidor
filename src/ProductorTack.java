@@ -7,7 +7,7 @@ public class ProductorTack extends Thread {
     }
 
     @Override
-    public synchronized void run() {
+    public void run() {
         for (int i = 0; i < 10; i++) {
             cola.setTickTack("     Tack");
         }
